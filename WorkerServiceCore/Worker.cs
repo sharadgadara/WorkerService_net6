@@ -17,8 +17,6 @@ namespace WorkerServiceCore
         public override Task StartAsync(CancellationToken cancellationToken)
         {
             client = new HttpClient();
-
-           
             return base.StartAsync(cancellationToken);
         }
 
